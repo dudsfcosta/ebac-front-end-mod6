@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
@@ -12,16 +13,21 @@
         <p>Boas-vindas ao jogo de adivinhação!</p>
     </header>
     <main>
-        <p>
-            <label for="number">
-                Para começar, digite um número de 0 a 100.
-            </label>
-        </p>
-        <input type="number" name="number" id="number">
-        <input type="button" value="Chutar" onclick="chutar()">
-
-        <p id="resultado"></p>
+        <section>
+            <p>
+                <label for="number">
+                    Para começar, digite um número de 0 a 100.
+                </label>
+            </p>
+            <p>
+                <input type="number" name="number" id="number">
+                <input type="button" value="Chutar" onclick="chutar()">
+            </p>
+            <p id="resultado"></p>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p>&copy; 2025 Eduarda Ferreira Costa</p>
+    </footer>
 </body>
 </html>
