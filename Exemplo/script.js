@@ -7,10 +7,10 @@ const matrizGastos = [
 ]
 
 // Funções utilitárias
-const obterElemento = (id) => document.getElementById(id)
+const obterElemento = (id) => document.getElementById(id);
 const valorNegativo = (valor) => valor < 0;
 const somaValor = (total, valor) => total + valor;
-const limparCampos = () => obterElemento('valor').value = ''
+const limparCampos = () => obterElemento('valor').value = '';
 
 // Obter valores do formulário
 const obterValorInformado = () => parseFloat(obterElemento('valor').value);
