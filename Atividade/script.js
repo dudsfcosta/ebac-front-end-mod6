@@ -1,9 +1,12 @@
 // Gera um número aleatório entre 1 e 100
-const randomNumber = Math.floor(Math.random() * 100) + 1;
-console.log(randomNumber)
-let chances = 0;
-console.log(chances)
+const ranNum = Math.floor(Math.random() * 100) + 1;
+
+// Variáveis de controle
+let chances = 10;
 let flag = false;
+
+// console.log("chances restantes: " + chances)
+// console.log("número gerado:" + ranNum)
 
 function chutar() {
     
@@ -12,30 +15,34 @@ function chutar() {
     // Resultado
     const resultado = document.getElementById('resultado');
 
-    if (chances < 10) {
+    if (tentativa < 1 || tentativa > 100) {
         
-        // Compara se o resultado é igual, maior ou menor
-        if (tentativa === randomNumber) {
+        resultado.textContent = 'O número não está entre 1 e 100. Forneça um número válido.'
+    }
+    else {
+        while (chances > 0) {
 
-            resultado.textContent = 'Parabéns! Você acertou o número!';
-            flag = true;
-            chances = 9;
-        } else if (tentativa < randomNumber) {
+            // Compara se o resultado é igual, maior ou menor
+            if (tentativa === ranNum) {
 
-            resultado.textContent = `O seu número é menor. Tente novamente. \n Tentativas restantes: ${10-chances}`;
-        } else {
+                resultado.textContent = 'Parabéns! Você acertou o número!';
+                flag = true;
+                chances = 1;
+            } else if (tentativa < ranNum) {
 
-            resultado.textContent = `O seu número é maior. Tente novamente. \n Tentativas restantes: ${10-chances}`;
+                resultado.textContent = `O seu número é menor. Tente novamente. \nTentativas restantes: ${chances}`;
+            } else {
+
+                resultado.textContent = `O seu número é maior. Tente novamente. \nTentativas restantes: ${chances}`;
+            }
+            chances--;
+            // console.log(chances);
         }
-        chances++;
-        console.log(chances);
-    } else {
-        
         if (flag) {
-            
-            resultado.textContent = 'Você já acertou o número. Recarregue a página para recomeçar.'
-            return;
-        }
-        resultado.textContent = 'Você não tem mais tentativas. Recarregue a página para recomeçar.'
+
+                resultado.textContent = 'Você já acertou o número. Recarregue a página para recomeçar.'
+                return;
+            }
+        resultado.textContent = `Você perdeu! O número secreto era ${ranNum}.\nRecarregue a página para recomeçar.`
     }
 }
