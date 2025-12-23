@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca132740-cadf-4ae4-9d74-27e98a1588d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exemplo/js/classes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exemplo/js/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exemplo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exemplo/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exemplo/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exemplo/js/app.js" afterDir="false" />
+    <list default="true" id="ca132740-cadf-4ae4-9d74-27e98a1588d0" name="Changes" comment="Atualizando o exemplo para o módulo 10.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exemplo/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exemplo/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +78,35 @@
       <workItem from="1766066982219" duration="9000" />
       <workItem from="1766067067167" duration="689000" />
       <workItem from="1766454302249" duration="1129000" />
-      <workItem from="1766490664012" duration="5624000" />
+      <workItem from="1766490664012" duration="7935000" />
     </task>
+    <task id="LOCAL-00001" summary="Atualizando o exemplo para o módulo 10.">
+      <option name="closed" value="true" />
+      <created>1766500906206</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766500906206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Atualizando o exemplo para o módulo 10." />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizando o exemplo para o módulo 10." />
   </component>
 </project>

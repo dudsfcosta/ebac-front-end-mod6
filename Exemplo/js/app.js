@@ -1,5 +1,5 @@
 import { Categoria, ListaGastosPorCategoria } from "./classes.js";
-import {atualizarInterface, valorNegativo} from "./utils.js";
+import { atualizarInterface, valorNegativo } from "./utils.js";
 
 // POO
 const gastosPorCategoria = new ListaGastosPorCategoria(
